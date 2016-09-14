@@ -22,7 +22,7 @@ class Main
 			{
 								
 				climbed_distance=(climb-(day*fatigue*climb));
-				if(climbed_distance<0)
+				if(climbed_distance<0)	//If the fatigue factor drops the snail's climbing distance below zero, the snail does not climb at all that day
 				{
 					dynamic_height_before_slide=dynamic_height+0;
 				}
